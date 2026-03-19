@@ -1,1 +1,7 @@
-Lo script è parte/risultato del lavoro di tesi triennale in Informatica. La presentazione in Slides_tesi.pdf contiene una rapida panoramica del lavoro svolto, contestualizzandolo e spiegandolo brevemente. Lo script è scritto in Python e provvede a rilevare in maniera automatica il Reflective Loader del ransomware WannaCry. Uno degli obiettivi dello script era di poter essere impiegato con successo anche su casi che adottassero strategie similari a quelle di WannaCry. Lo sviluppo è puramente sperimentale e perciò non ha particolari pretese di successo o efficienza, bensì solamente teoriche e dimostrative.
+Questo script è il risultato pratico del mio lavoro di tesi triennale in Informatica.
+
+Sviluppato in Python per l'ambiente Ghidra, lo script provvede a rilevare in maniera automatica il Reflective PE Loader all'interno del ransomware WannaCry. Invece di basarsi su semplici firme, il tool sfrutta un'analisi euristica direttamente sul P-Code (l'Intermediate Representation di Ghidra).
+
+Uno degli obiettivi primari dello script è l'approccio malware-agnostic: la logica di tracciamento a ritroso (Backtracing) è stata studiata per poter essere impiegata teoricamente anche su altri malware complessi che adottano strategie di offuscamento e caricamento similari a quelle di WannaCry.
+
+Trattandosi di uno sviluppo accademico, il codice rappresenta un Proof of Concept (PoC) puramente sperimentale e dimostrativo, volto a esplorare le potenzialità dell'analisi statica avanzata per supportare i processi di Reverse Engineering.
