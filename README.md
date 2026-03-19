@@ -5,3 +5,5 @@ Sviluppato in Python per l'ambiente Ghidra, lo script provvede a rilevare in man
 Uno degli obiettivi primari dello script è l'approccio malware-agnostic: la logica di tracciamento a ritroso (Backtracing) è stata studiata per poter essere impiegata teoricamente anche su altri malware complessi che adottano strategie di offuscamento e caricamento similari a quelle di WannaCry.
 
 Trattandosi di uno sviluppo accademico, il codice rappresenta un Proof of Concept (PoC) puramente sperimentale e dimostrativo, volto a esplorare le potenzialità dell'analisi statica avanzata per supportare i processi di Reverse Engineering.
+
+Per una rapida panoramica del lavoro svolto (contesto, architettura e spiegazione della logica), vi invito a sfogliare la presentazione allegata nel file Slides_tesi.pdf.
